@@ -7,6 +7,6 @@ public:
 	CFileStorage();
 	virtual ~CFileStorage();
 public:
-	virtual int storageData();
+	virtual int readData();
+	virtual int writeData();
 };
-

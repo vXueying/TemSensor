@@ -5,6 +5,6 @@ public:
 	CStorage();
 	virtual ~CStorage();
 public:
-	virtual int storageData() = 0;
+	virtual int readData()  = 0;
+	virtual int writeData() = 0;
 };
-

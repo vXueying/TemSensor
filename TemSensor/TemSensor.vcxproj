@@ -186,17 +186,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DatabaseStorage.h" />
+    <ClInclude Include="DataBuffer.h" />
     <ClInclude Include="FileStorage.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Storage.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TemData.h" />
+    <ClInclude Include="TemDisplay.h" />
     <ClInclude Include="TemSensor.h" />
     <ClInclude Include="TemSensorDlg.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DatabaseStorage.cpp" />
+    <ClCompile Include="DataBuffer.cpp" />
     <ClCompile Include="FileStorage.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -206,6 +209,7 @@
     </ClCompile>
     <ClCompile Include="Storage.cpp" />
     <ClCompile Include="TemData.cpp" />
+    <ClCompile Include="TemDisplay.cpp" />
     <ClCompile Include="TemSensor.cpp" />
     <ClCompile Include="TemSensorDlg.cpp" />
   </ItemGroup>

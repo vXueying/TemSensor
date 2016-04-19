@@ -45,6 +45,12 @@
     <ClInclude Include="TemData.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DataBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TemDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TemSensor.cpp">
@@ -66,6 +72,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="TemData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TemDisplay.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
