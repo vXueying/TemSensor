@@ -6,6 +6,5 @@ public:
 	virtual ~CStorage();
 public:
 	virtual int storageData() = 0;
-
 };
 
