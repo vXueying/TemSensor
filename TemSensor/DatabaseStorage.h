@@ -7,6 +7,6 @@ public:
 	CDatabaseStorage();
 	virtual ~CDatabaseStorage();
 public:
-	virtual int storageData() = 0;
+	virtual int readData() = 0;
 };
 

@@ -11,7 +11,7 @@ CDatabaseStorage::~CDatabaseStorage()
 {
 }
 
-int CDatabaseStorage::storageData()
+int CDatabaseStorage::readData()
 {
 	return 0;
 }
